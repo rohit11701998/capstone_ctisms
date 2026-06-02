@@ -1,0 +1,55 @@
+/* assets/css/style.css - Week 2 basic styling */
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #003366;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.card-header {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
+/* Status badge colors - added Week 4 */
+.badge-pending    { background-color: #ffc107; color: #000; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+.badge-inprogress { background-color: #17a2b8; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+.badge-resolved   { background-color: #28a745; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+
+.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.btn-primary:hover {
+    background-color: #002244;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+}
+
+/* Auth form box */
+.auth-box {
+    max-width: 420px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}

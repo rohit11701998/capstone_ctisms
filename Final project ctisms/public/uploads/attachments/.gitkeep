@@ -1,0 +1,4 @@
+# This directory stores ticket attachments
+# Ensure this directory is writable by the web server:
+# chmod 755 attachments/
+# chown www-data:www-data attachments/

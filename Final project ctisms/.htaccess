@@ -1,0 +1,5 @@
+# CTISMS - Apache Configuration
+# Redirect root to public/
+RewriteEngine On
+RewriteRule ^$ public/ [L]
+RewriteRule ^((?!public/).*)$ public/$1 [L,QSA]
